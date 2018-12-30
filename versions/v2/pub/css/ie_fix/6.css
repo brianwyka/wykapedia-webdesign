@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.browser-icon-wrap {
+	width: 25%;
+	float: left;
+}
+.browser-icon-wrap .browser-icon {
+	margin: 0px auto;
+	width: 200px;
+}
+.browser-icon-wrap .browser-icon a {
+	display: block;
+	text-decoration: none;
+	border: none;
+}
+.browser-icon-wrap .browser-icon a img {
+	display: block;
+}
+
+#content ul {
+	padding-left: 34px;
+}

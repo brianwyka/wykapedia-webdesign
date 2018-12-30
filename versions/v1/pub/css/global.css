@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*START HTML/BODY STYLING*/
+* {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	position: relative;
+	background: #3b6aa0 url(../images/bg.jpg) top center repeat-x;
+}
+/*END HTML/BODY STYLING*/
+
+
+/*START LAYOUT DIVS*/
+#page_wrap {
+	margin: 0px auto;
+	width: 960px;
+}
+#page {
+	
+}
+
+#header_wrap {
+	
+}
+#header {
+	height: 48px;
+}
+#header ul {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	list-style-type: none;
+}
+#header ul li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+#header ul li a {
+	margin: 0px;
+	padding: 21px 20px 10px 20px;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+#header ul li a:link, #header ul li a:visited {
+	text-decoration: none;
+}
+#header ul li a:hover, #header ul li a:active {
+	text-decoration: none;
+	background: #555;
+}
+#header ul li a.on:link, #header ul li a.on:visited,
+#header ul li a.on:hover, #header ul li a.on:active {
+	text-decoration: none;
+	background: #555;
+}
+#fb_like {
+	margin: 14px 0px 0px 0px;
+	width: 100px;
+	float: right;
+	overflow: hidden;
+}
+#fb_like iframe {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 80px;
+	height: 21px;
+	border: none;
+	overflow: hidden;
+}
+
+#feature_wrap {
+	
+}
+#feature {
+	height: 340px;
+	position: relative;
+	background: url(../images/feature_bg.jpg) top center no-repeat;
+}
+#feature .menu {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#feature .menu ul.on {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	list-style-type: none;
+}
+#feature .menu ul.off {
+	display: none;
+}
+#feature .menu ul li {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+#feature .menu ul li a {
+	margin: 0px;
+	padding: 14px;
+	display: block;
+	color: #3b6aa0;
+	font-size: 2.4em;
+	font-weight: bold;
+	text-align: left;
+	text-transform: lowercase;
+}
+#feature .menu ul li a:link, 
+#feature .menu ul li a:visited {
+	text-decoration: none;
+}
+#feature .menu ul li a:hover, 
+#feature .menu ul li a:active {
+	text-decoration: underline;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+#audio_button {
+	position: absolute;
+	top: 192px;
+	left: 520px;
+}
+#audio_button img {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	border: none;
+	cursor: pointer;
+}
+#audio_button iframe {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+#tnt {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #333;
+	z-index: 10;
+}
+#tnt h3 {
+	padding: 4px;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	background: #333;
+}
+#tnt #etoolsFundraiserWidget img {
+	width: 200px;
+	display: block;
+	border: none;
+}
+
+#content_wrap {
+	margin: 0px auto 30px auto;
+	width: 668px;
+}
+#content {
+	height: 100px;
+	background-image: url(../images/content_bg.jpg);
+	background-repeat: no-repeat;
+}
+#content_wrap .home {
+	background-position: 0px 0px;
+}
+#content_wrap .examples {
+	background-position: 0px -100px;
+}
+#content_wrap .portfolio {
+	background-position: 0px -200px;
+}
+#content_wrap .request {
+	background-position: 0px -300px;
+}
+#content_wrap .contact {
+	background-position: 0px -400px;
+}
+#w3 {
+	margin: 0px auto 20px auto;
+	width: 180px;
+	height: 31px;
+}
+#w3 img {
+	margin: 0px 1px;
+	padding: 0px;
+	display: block;
+	width: 86px;
+	height: 31px;
+	border: none;
+	float: left;
+}
+
+#footer_wrap {
+	
+}
+#footer {
+	
+}
+/*END LAYOUT DIVS*/
+
+/*FORM AND INPUT STYLES*/
+form {
+	z-index: inherit;
+}
+form .line {
+	margin: 0px 0px 8px 0px;
+	z-index: inherit;
+}
+form .line .label {
+	z-index: inherit;
+}
+form .line .label label {
+	padding: 0px 0px 2px 0px;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	z-index: inherit;
+}
+form .line .input,
+form .line .textarea {
+	padding: 2px;
+	background: #fff;
+	border: 1px solid #aaa;
+	z-index: inherit;
+}
+form .line .input  input,
+form .line .textarea textarea {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 100%;
+	font-size: 1.2em;
+	background: none;
+	border: none;
+	z-index: inherit;
+}
+form .line .textarea textarea {
+	overflow: auto;
+	z-index: inherit;
+}
+form .line .select, 
+form .line .radio,
+form .line .checkbox {
+	padding: 4px 0px 0px 0px;
+	z-index: inherit;
+}
+form .line .select select,
+form .line .radio input,
+form .line .checkbox input,
+form .line .checkbox label {
+	margin: 0px 4px 0px 0px;
+	display: inline;
+	font-size: 1.2em;
+	z-index: inherit;
+}
+form .button {
+	text-align: right;
+	z-index: inherit;
+}
+form .button input {
+	font-size: 1.2em;
+	font-weight: bold;
+	z-index: inherit;
+}
+
+
+/*POPUP STYLES*/
+#canvas .popup-wrap {
+	margin: 20px auto 0px auto;
+	width: 720px;
+}
+#canvas .popup-wrap .popup {
+	background: #eee;
+	border: 1px solid #fff;
+}
+#canvas .popup-wrap .popup h2 {
+	padding: 4px;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-transform: capitalize;
+	background: #3b6aa0;
+}
+#canvas .popup-wrap .popup .popup-body {
+	padding: 10px;
+	max-height: 300px;
+	overflow: auto;
+}
+#canvas .popup-wrap .popup .popup-body .container {
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px dashed #aaa;
+}
+#canvas .popup-wrap .popup .popup-body h3 {
+	color: #3b6aa0;
+	font-size: 1.6em;
+}
+#canvas .popup-wrap .popup .popup-body p {
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+#canvas .popup-wrap .popup .popup-body a:link,
+#canvas .popup-wrap .popup .popup-body a:visited,
+#canvas .popup-wrap .popup .popup-body a:hover,
+#canvas .popup-wrap .popup .popup-body a:active {
+	color: #3b6aa0;
+	text-decoration: underline;
+}
+#canvas .popup-wrap .popup .popup-body ul {
+	list-style-type: square;
+}
+#canvas .popup-wrap .popup .popup-body ul li {
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+#canvas .popup-wrap .popup .popup-body .code pre {
+	padding: 10px;
+	color: #3b6aa0;
+	font-size: 1.2em;
+	font-family: "Courier New", Courier, monospace;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+#canvas .popup-wrap .popup .popup-body .client p img {
+	margin: 0px 10px 10px 0px;
+	padding: 2px;
+	display: block;
+	float: left;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+#canvas .popup-wrap .popup .button {
+	padding: 4px 0px;
+	text-align: right;
+}
+#canvas .popup-wrap .popup .button input {
+	font-size: 1.2em;
+	font-weight: bold;
+}

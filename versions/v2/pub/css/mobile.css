@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background: #3b6aa0;
+}
+
+#outter-page {
+	padding: 0;
+}
+#inner-page-wrap {
+	
+}
+
+#header {
+	height: 80px;
+}
+#header img {
+	margin: 0 auto;
+	display: block;
+	width: 40%;
+}
+
+#nav {
+	padding: 0;
+	height: 80px;
+}
+#nav ul li a {
+	margin: 0;
+	padding: 4px 20px;
+	height: 72px;
+	font-size: 3em;
+	line-height: 72px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+
+#tnt-lls-wrap {
+	background: #CAAADD url(../images/tnt_logo.png) 20px center no-repeat;
+	border-bottom: 2px solid #AE7FD0;
+}
+#tnt-lls {
+	padding: 40px 20px 40px 280px;
+	position: relative;
+}
+#tnt-lls div.note {
+	margin: 0 auto 10px auto;
+	width: 500px;
+	font-size: 3em;
+}
+#tnt-lls div.fundraising {
+	font-size: 3em;
+}
+#tnt-lls div.donate-now a:link,
+#tnt-lls div.donate-now a:visited,
+#tnt-lls div.donate-now a:hover,
+#tnt-lls div.donate-now a:active {
+	font-size: 1.8em;
+}
+
+
+#content h2 {
+	font-size: 4em;
+}
+#content h3 {
+	font-size: 3em;
+}
+#content ul {
+	font-size: 2.4em;
+}
+#content ul li {
+	font-size: 1em;
+	line-height: 2em;
+}
+#content p {
+	font-size: 2.4em;
+}
+
+#content .panel .client p {
+	line-height: 1.8em;
+}
+
+h3.cursor-hand {
+	cursor: pointer;
+}
+.code-snippet pre {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 2.2em;
+}
+#footer {
+	padding: 2em;
+	font-size: 2em;
+}

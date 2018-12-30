@@ -1,0 +1,28 @@
+{
+    "combineOnSave": true,
+    "combine": [
+        {
+            "output": "css/headlibs.min.css",
+            "files": [
+                "css/normalize.css",
+                "vendor/foundation-5.4.6.custom/css/foundation.min.css",
+                "css/main.css"
+            ]
+        },
+        {
+            "output": "js/headlibs.min.js",
+            "files": [
+                "js/vendor/modernizr-2.6.2.min.js"
+            ]
+        },
+        {
+            "output": "js/bodylibs.min.js",
+            "files": [
+                "js/vendor/jquery-1.10.2.min.js",
+                "vendor/foundation-5.4.6.custom/js/foundation.min.js",
+                "js/plugins.js",
+                "js/main.js"
+            ]
+        }
+    ]
+}
